@@ -5,7 +5,6 @@ int cantidad = 15;
 int cuenta_total = 0;
 void Titulo()
 {
-    
     Console.ForegroundColor = ConsoleColor.Magenta;
     Console.WriteLine("\"BUSCA X\"");
     Console.WriteLine();
@@ -181,7 +180,6 @@ void ColorearAdyacentes((int x, int y) ingreso, string[,] matriz)
         Console.ForegroundColor = ConsoleColor.Red;
     }
 }
-
 string? continuar;
 do
 {
